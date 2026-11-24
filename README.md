@@ -17,6 +17,10 @@ configs:
 
 # 药品说明书样本20份
 
+## 直接下载
+
+- [逐文件下载](https://github.com/lengfeng650-star/drug-instructions-sample-20/blob/main/meta/downloads.md)
+
 本数据集是药品说明书 PDF 开源样本，包含 20 份药品说明书 PDF 原件及对应 JSON 元数据。每份样本以批准文号为文件名，并提供药品名称、剂型、生产企业、PDF 页数、文件大小和 SHA256 校验值等字段，便于检索、加载和二次处理。
 
 本次发布保留 PDF 原件，并提供面向数据预览、检索和程序加载的 JSONL 清单。完整 PDF 位于 `data/pdfs/`，结构化元数据位于 `metadata/`。
